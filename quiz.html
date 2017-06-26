@@ -1,0 +1,198 @@
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <meta charset="utf-8">
+      <title>Oscars Trivia - Powered By JavaScript</title>
+    </head>
+    <body>
+
+      <h1>Oscars Trivia</h1>
+
+      <form>
+        <p>Enter User Name:<p>
+        <input type="text" name="user_name"><br>
+        <input id="enter-name" type="submit" value="Enter"/>
+
+        <div class="questions">
+          <p>Question 1:</p>
+          <p>Name one of the 6 actors/actresses who have won 3 or more Oscars</p>
+          <input type="text" name="question-1"><br>
+        </div>
+
+        <div class="questions">
+          <p>Question 2:</p>
+          <p>Below is a list of acclaimed films from the 1970's. Check off all of
+            the ones that were NOT nominated for Best Picture.
+          <br>
+          <input type="checkbox" name="question-2" value="MASH"> MASH<br>
+          <input type="checkbox" name="question-2" value="Little Big Man"> Little Big Man<br>
+          <input type="checkbox" name="question-2" value="The Last Picture Show"> The Last Picture Show<br>
+          <input type="checkbox" name="question-2" value="Fiddler on the Roof"> Fiddler on the Roof<br>
+          <input type="checkbox" name="question-2" value="The Candidate"> The Candidate<br>
+          <input type="checkbox" name="question-2" value="The Exorcist"> The Exorcist<br>
+          <input type="checkbox" name="question-2" value="Paper Moon"> Paper Moon<br>
+          <input type="checkbox" name="question-2" value="Barry Lyndon"> Barry Lyndon<br>
+          <input type="checkbox" name="question-2" value="Network"> Network<br>
+          <input type="checkbox" name="question-2" value="Close Encounters of the Third Kind"> Close Encounters of the Third Kind<br>
+          <input type="checkbox" name="question-2" value="The Goodbye Girl"> The Goodbye Girl<br>
+          <input type="checkbox" name="question-2" value="Coming Home"> Coming Home<br>
+          <input type="checkbox" name="question-2" value="Being There"> Being There<br>
+          <input type="checkbox" name="question-2" value="Apocalypse Now"> Apocalypse Now<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 3:</p>
+          <p>Which of the following iconic American actors has won more than one Oscar?</p>
+          <input type="radio" name="question-3" value="De Niro"> Robert De Niro<br>
+          <input type="radio" name="question-3" value="Redford"> Robert Redford<br>
+          <input type="radio" name="question-3" value="Duvall"> Robert Duvall<br>
+          <input type="radio" name="question-3" value="Pacino"> Al Pacino<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 4:</p>
+          <p>Name one of the 3 movies that won "The Big Five" (Best Picture, Director, Actor, Actress, Screenplay)</p>
+          <input type="text" name="question-4"><br>
+        </div>
+
+        <div class="questions">
+          <p>Question 5:</p>
+          <p>Below is a list of acclaimed films from the 1990's. Check off all of the ones that WERE nominated for Best Picture.
+          <br>
+          <input type="checkbox" name="question-5" value="Goodfellas"> Goodfellas<br>
+          <input type="checkbox" name="question-5" value="Beauty and the Beast"> Beauty and the Beast<br>
+          <input type="checkbox" name="question-5" value="The Fisher King"> The Fisher King<br>
+          <input type="checkbox" name="question-5" value="The Crying Game"> The Crying Game<br>
+          <input type="checkbox" name="question-5" value="Reservoir Dogs"> Reservoir Dogs<br>
+          <input type="checkbox" name="question-5" value="What's Eating Gilbert Grape?"> What's Eating Gilbert Grape?<br>
+          <input type="checkbox" name="question-5" value="The Shawshank Redemption"> The Shawshank Redemption<br>
+          <input type="checkbox" name="question-5" value="Leaving Las Vegas"> Leaving Las Vegas<br>
+          <input type="checkbox" name="question-5" value="Fargo"> Fargo<br>
+          <input type="checkbox" name="question-5" value="LA Confidential"> LA Confidential<br>
+          <input type="checkbox" name="question-5" value="Boogie Nights"> Boogie Nights<br>
+          <input type="checkbox" name="question-5" value="The Thin Red Line"> The Thin Red Line<br>
+          <input type="checkbox" name="question-5" value="The Truman Show"> The Truman Show<br>
+          <input type="checkbox" name="question-5" value="Eyes Wide Shut"> Eyes Wide Shut<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 6:</p>
+          <p>Which of the following iconic British actresses has never won an Oscar?</p>
+          <input type="radio" name="question-6" value="Mirren"> Helen Miren<br>
+          <input type="radio" name="question-6" value="Lansbury"> Angela Lansbury<br>
+          <input type="radio" name="question-6" value="Dench"> Judi Dench<br>
+          <input type="radio" name="question-6" value="Christie"> Julie Christie<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 7:</p>
+          <p>Of the following, which film was nominated for Best Picture, but NOT Best Director?</p>
+          <input type="radio" name="question-7" value="American Beauty"> American Beauty<br>
+          <input type="radio" name="question-7" value="Crash"> Crash<br>
+          <input type="radio" name="question-7" value="Erin Brockovich"> Erin Brockovich<br>
+          <input type="radio" name="question-7" value="Little Miss Sunshine"> Little Miss Sunshine<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 8:</p>
+          <p>Since 2000, 10 different Best Actor winners have won for portrayls of real life figures. Can you name one of them?</p>
+          <input type="text" name="question-8"><br>
+        </div>
+
+        <div class="questions">
+          <p>Question 9:</p>
+          <p>Below is a list of Best Picture nominees from the 2000's-2010's. Check off all of the ones that WON Best Picture.
+          <br>
+          <input type="checkbox" name="question-9" value="Crouching Tiger, Hidden Dragon"> Crouching Tiger, Hidden Dragon<br>
+          <input type="checkbox" name="question-9" value="A Beautiful Mind"> A Beautiful Mind<br>
+          <input type="checkbox" name="question-9" value="The Pianist"> The Pianist<br>
+          <input type="checkbox" name="question-9" value="Lost in Translation"> Lost in Translation<br>
+          <input type="checkbox" name="question-9" value="Million Dollar Baby"> Million Dollar Baby<br>
+          <input type="checkbox" name="question-9" value="Brokeback Mountain"> Brokeback Mountain<br>
+          <input type="checkbox" name="question-9" value="The Departed"> The Departed<br>
+          <input type="checkbox" name="question-9" value="There Will Be Blood"> There Will Be Blood<br>
+          <input type="checkbox" name="question-9" value="Slumdog Millionaire"> Slumdog Millionaire<br>
+          <input type="checkbox" name="question-9" value="The Hurt Locker"> The Hurt Locker<br>
+          <input type="checkbox" name="question-9" value="The Social Network"> The Social Network<br>
+          <input type="checkbox" name="question-9" value="The Artist"> The Artist<br>
+          <input type="checkbox" name="question-9" value="Argo"> Argo<br>
+          <input type="checkbox" name="question-9" value="Gravity"> Gravity<br>
+          <input type="checkbox" name="question-9" value="Boyhood"> Boyhood<br>
+          <input type="checkbox" name="question-9" value="Spotlight"> Spotlight<br>
+          <input type="checkbox" name="question-9" value="La La Land"> La La Land<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 10:</p>
+          <p>Which of the following foreign actresses has NEVER won an Oscar?</p>
+          <input type="radio" name="question-10" value="Binoche"> Juliette Binoche<br>
+          <input type="radio" name="question-10" value="Cotillard"> Marion Cotillard<br>
+          <input type="radio" name="question-10" value="Cruz"> Penelope Cruz<br>
+          <input type="radio" name="question-10" value="Huppert"> Isabelle Huppert<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 11:</p>
+          <p>Which of the following actors has NOT won Oscars for both Best Actor and Best Supporting Actor</p>
+          <input type="radio" name="question-11" value="Washington"> Denzel Washington<br>
+          <input type="radio" name="question-11" value="Hoffman"> Dustin Hoffman<br>
+          <input type="radio" name="question-11" value="Hackman"> Gene Hackman<br>
+          <input type="radio" name="question-11" value="Nicholson"> Jack Nicholson<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 12:</p>
+          <p>Since 1970, 4 actresses NOT named Meryl Streep have won two Best Actress Oscars within that timeframe.
+            Can you name one of them?</p>
+          <input type="text" name="question-12"><br>
+        </div>
+
+        <div class="questions">
+          <p>Question 13:</p>
+          <p>Below is a list of famous Directors, check off all of the ones who HAVE won multiple Oscars for Best Director.
+          <br>
+          <input type="checkbox" name="question-13" value="Spielberg"> Steven Spielberg<br>
+          <input type="checkbox" name="question-13" value="Kubrick"> Stanley Kubrick<br>
+          <input type="checkbox" name="question-13" value="Eastwood"> Clint Eastwood<br>
+          <input type="checkbox" name="question-13" value="Coppola"> Francis Ford Coppola<br>
+          <input type="checkbox" name="question-13" value="Polanski"> Roman Polanski<br>
+          <input type="checkbox" name="question-13" value="Altman"> Robert Altman<br>
+          <input type="checkbox" name="question-13" value="Lee"> Ang Lee<br>
+          <input type="checkbox" name="question-13" value="Allen"> Woody Allen<br>
+          <input type="checkbox" name="question-13" value="Stone"> Oliver Stone<br>
+          <input type="checkbox" name="question-13" value="Hitchcock"> Alfred Hitchcock<br>
+          <input type="checkbox" name="question-13" value="Lean"> David Lean<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 14:</p>
+          <p>Three actors turned directors beat the great Martin Scorsese before he finally won his Oscar for
+            "The Departed", which of the following actors turned directors was NOT one of them?</p>
+          <input type="radio" name="question-14" value="Eastwood"> Clint Eastwood<br>
+          <input type="radio" name="question-14" value="Redford"> Robert Redford<br>
+          <input type="radio" name="question-14" value="Hackman"> Mel Gibson<br>
+          <input type="radio" name="question-14" value="Nicholson"> Kevin Costner<br>
+          <br>
+        </div>
+
+        <div class="questions">
+          <p>Question 15:</p>
+          <p>Since 2006, 5 black actresses have won Best Supporting Actress. Can you name one of them?</p>
+          <input type="text" name="question-15"><br>
+        </div>
+
+        <input id="final-submit" type="submit" value=">>>Submit Results<<<"/>
+      </form>
+
+    </body>
+  </html>
